@@ -1,0 +1,23 @@
+{
+    "project_type": "Website",
+    "project_objectives": "Create a website for a small business",
+    "industry": "Technology",
+    "team_members": [
+      "John Doe (Project Manager)",
+      "Jane Doe (Software Engineer)",
+      "Bob Smith (Designer)",
+      "Alice Johnson (QA Engineer)",
+      "Tom Brown (QA Engineer)"
+    ],
+    "project_requirements": [
+      "Responsive design for desktop and mobile",
+      "Modern, visually appealing UI",
+      "User-friendly navigation",
+      "About Us, Services, Contact Us pages",
+      "Blog section for updates",
+      "Fast loading times and SEO optimization",
+      "Social media integration",
+      "Testimonials section"
+    ]
+  }
+  
