@@ -4,5 +4,5 @@ __pycache__
 *.ods*
 execution_output*.md
 Notes.md
-!questions.md
+*questions.md
 debug.ipynb
