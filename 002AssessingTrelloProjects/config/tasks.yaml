@@ -1,0 +1,53 @@
+data_collection:
+  description: >
+    1. Use **Trello Board Data Fetcher**  to retrieve a list of cards from the Trello board.
+    2. Extract the **id, name, last activity** from each card in the JSON response.
+    3. For each **card ID retrieved**, use **Trello Card Data Fetcher Tool** to fetch detailed card data.
+    4. Convert the card data into structured text.
+    5. Store the final processed data in a structured table.
+    6. Create an initial understanding of the project, its main
+    features and the team working on it.
+    7. **DO NOT repeat the task if it fails. Log any errors and stop execution.**
+  expected_output: >
+    A full blown report on the project, including its main
+    features, the team working on it,
+    and any other relevant information from the Trello board.
+
+data_analysis:
+  description: >
+    Analyze the Trello data to identify blockers, delays, and
+    overall progress. Use Card Data Fetcher tool if need in-depth card information.
+    DO NOT REPEAT the task.
+    AVOID OVERTHINKING. YOuR FIRST ANSWER IS ALWAYS THE BEST
+    STOP THE TASK IF NO OUTPUT FROM PREVIOUS TASK.
+  expected_output: >
+    A summary of the analysis highlighting key issues, blockers,
+    delays, and progress.
+
+report_generation:
+  description: >
+    Compile a comprehensive sprint report based on the analysis
+    of the project data. 
+    DO NOT REPEAT the task.
+    AVOID OVERTHINKING. YOuR FIRST ANSWER IS ALWAYS THE BEST
+
+    The report should include:
+    - Sprint Overview
+    - Task Summary
+    - Identified Issues and Blockers
+    - Progress and Delays
+    - Team Performance Overview
+    - Action Items and Recommendations
+    - Anything else that is relevant to the project.
+    The report must be formatted in markdown.
+  expected_output: >
+    A detailed sprint report in markdown format that can be presented
+    to the executive team, don't enclose the markdown in any block
+    '```' or '```markdown' or any other code block.
+
+hallucination_check:
+  description: >
+    Review the output of the previous task to verify its accuracy and ensure that no hallucinations or incorrect information are present. If an issue is detected, request the previous agent to refine and regenerate the correct output.
+    If innacurate data is found, delegate the first task again.
+  expected_output: >
+    A validation report confirming the accuracy of the previous output or a request for correction if hallucinations are detected.

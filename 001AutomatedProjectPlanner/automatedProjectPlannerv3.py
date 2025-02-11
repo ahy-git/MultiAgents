@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 warnings.filterwarnings('ignore')
 load_env()
 
-model1 = "llama321bdocker"
+model1 = "llama321b"
 model2 = model1
 model3 = model1
 
@@ -93,10 +93,6 @@ class ProjectPlan(BaseModel):
         default_factory=list, description="List of project milestones")
     mermaid_gantt: str = Field(None, description="Pre-generated Mermaid Gantt chart")
 
-
-model1 = "llama321bdocker"
-model2 = model1
-model3 = model1
 
 # Criar agentes
 agents = {

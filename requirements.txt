@@ -6,6 +6,7 @@
 #torch==2.0.1
 #matplotlib==3.7.2
 
+requests
 crewai
 crewai_tools
 uv
