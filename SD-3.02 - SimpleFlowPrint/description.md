@@ -1,0 +1,1 @@
+A basic CrewAI Flow that greets the user, collects two input numbers, calculates their sum, and visualizes the flow using plot().

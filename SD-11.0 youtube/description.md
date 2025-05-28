@@ -1,0 +1,1 @@
+An AI-driven multi-agent platform for YouTube analysis, combining comment extraction, engagement metrics, and trend detection by category and region. Ideal for marketers and strategists to monitor feedback, optimize performance, and track viral content with LLM-powered automation.

@@ -1,0 +1,1 @@
+A creative CrewAI Flow that randomly selects a sentence count, delegates poem generation to a specialized crew, and saves the final poem to a file—highlighting CrewAI’s modular orchestration and artistic flexibility.

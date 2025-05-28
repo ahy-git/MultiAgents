@@ -1,0 +1,1 @@
+A playful CrewAI setup that teaches multiplication to children using emojis, where one agent generates random numbers and another explains the concept in a kid-friendly way with visual examples.

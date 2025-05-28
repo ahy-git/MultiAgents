@@ -1,0 +1,1 @@
+A multi-agent CrewAI pipeline that monitors financial news, analyzes market data, and generates a markdown article with platform-specific social media posts using LLMs and web tools.

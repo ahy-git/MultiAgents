@@ -1,0 +1,1 @@
+This crew automates JSON profile generation using LLMs, with built-in validation and error correction. It generates a structured profile (name, age, profession), validates output using Guardrails, and rewrites prompts iteratively until the format is correct—ideal for robust, schema-compliant profile creation in business workflows.

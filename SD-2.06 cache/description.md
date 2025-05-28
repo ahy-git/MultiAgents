@@ -1,0 +1,1 @@
+A simple CrewAI tool-agent setup where a writer agent uses a cached multiplication tool (caching even results) to teach math lessons to children.

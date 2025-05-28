@@ -1,0 +1,1 @@
+A multi-agent CrewAI system with iterative reflection and critique. It uses a researcher, writer, and reviewer to generate short, impactful texts on a given topic, then routes the result through a critique loop until the output is validated or marked “perfect.” Includes a custom SearxNG search tool with thematic and temporal filters for enriched content sourcing.

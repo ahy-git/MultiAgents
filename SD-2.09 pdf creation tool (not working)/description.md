@@ -1,0 +1,1 @@
+A CrewAI tool that generates a PDF with a title, text, and embedded image—ideal for creating visual reports and summaries.

@@ -1,0 +1,1 @@
+A fully automated PDF summarization pipeline using CrewAI and Docling. It converts PDFs into structured JSON, splits content into sections, generates per-section markdown summaries, recursively synthesizes them into a final report, and handles cleanup—delivering a concise, structured, and human-readable summary file.

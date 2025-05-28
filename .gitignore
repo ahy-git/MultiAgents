@@ -9,3 +9,5 @@ debug.ipynb
 .prettierrc
 db/
 .gitignore
+*.mp3
+*.wav

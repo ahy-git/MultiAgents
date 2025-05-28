@@ -1,0 +1,1 @@
+An autonomous CrewAI agent that scrapes blog content, summarizes it in natural language, and converts it into a human-like podcast using ElevenLabs. Ideal for automating blog-to-audio transformations.

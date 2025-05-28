@@ -1,0 +1,1 @@
+A structured CrewAI workflow that researches a given topic and generates a detailed markdown report for blog posting.

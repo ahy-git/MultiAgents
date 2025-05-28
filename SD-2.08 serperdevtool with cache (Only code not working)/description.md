@@ -1,0 +1,1 @@
+A web search agent using the SerperDevTool with a custom cache function that avoids repeated searches within one hour, optimized for efficient query handling.

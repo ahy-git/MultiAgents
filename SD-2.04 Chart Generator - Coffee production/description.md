@@ -1,0 +1,1 @@
+A CrewAI workflow that researches Brazil's 2024 coffee production by bean type using web search, then generates a pie chart visualizing the percentage distribution for each variety.

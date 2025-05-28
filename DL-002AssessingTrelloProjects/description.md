@@ -1,0 +1,1 @@
+CrewAI implementation for automated project assessment: Orchestrates specialized agents to collect data, analyze metrics, generate reports, and validate outputs with hallucination checks. Features custom tools for data fetching, JSON processing, and performance logging.

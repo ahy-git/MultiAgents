@@ -1,0 +1,1 @@
+A CrewAI tool that multiplies two integers and returns a formatted string with the result.

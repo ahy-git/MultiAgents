@@ -1,0 +1,1 @@
+A simple CrewAI Flow that greets the user, collects two numbers via input, and calculates their sum in a sequential three-step process.

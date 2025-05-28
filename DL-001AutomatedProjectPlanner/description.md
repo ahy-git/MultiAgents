@@ -1,0 +1,1 @@
+A multi-agent CrewAI pipeline that transforms structured project input into a detailed project plan with task breakdown, time/resource estimates, risk mitigation, and a Mermaid-compatible Gantt chart. Outputs a full Markdown execution report including token usage, models used, and serialized plan data.

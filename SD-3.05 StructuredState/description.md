@@ -1,0 +1,1 @@
+A structured CrewAI Flow using a typed state model to sequentially build information across three stages, demonstrating clear state tracking with Pydantic.

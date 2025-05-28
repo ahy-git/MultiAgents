@@ -1,0 +1,1 @@
+A CrewAI Flow using @router to conditionally branch execution based on a random boolean, directing the process to either a success or failure path.

@@ -1,0 +1,1 @@
+A Streamlit-based agentic platform powered by CrewAI that allows users to generate blog posts and summarize PDFs. It integrates multi-agent crews with tools like SearxNG, RemoteScraper, and PDFSearchTool to research, write, revise, and extract structured insights from documents—all optimized for interactive content creation and AI-assisted workflows.

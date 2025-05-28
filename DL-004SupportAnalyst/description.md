@@ -1,0 +1,1 @@
+A CrewAI workflow that analyzes support tickets, generates improvement suggestions, charts, and tables, and assembles a final markdown report using LLM and CSV data.

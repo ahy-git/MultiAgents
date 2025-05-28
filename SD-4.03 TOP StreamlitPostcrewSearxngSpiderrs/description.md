@@ -1,0 +1,1 @@
+A multi-agent CrewAI system for generating high-quality blog posts. It combines web search (via SearxNG), remote scraping, and collaborative writing with agents for research, writing, and revision—optimized for use in web apps like Streamlit.
