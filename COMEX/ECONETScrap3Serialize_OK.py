@@ -5,6 +5,10 @@
 from urllib.parse import quote_plus
 import requests
 import phpserialize
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def gerar_parametro_get(termo: str) -> str:
     form_dict = {
@@ -27,8 +31,8 @@ session = requests.Session()
 # Login via log.php
 login_url = "https://comex.econeteditora.com.br/log.php"
 payload = {
-    "Log": "GDC61910",
-    "Sen": "dan8278",
+    "Log": os.getenv("LOGIN"),
+    "Sen": os.getenv("PW"),
     "Pag": "/tec/index.php"
 }
 response_login = session.post(login_url, data=payload)

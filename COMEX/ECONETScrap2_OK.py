@@ -4,15 +4,18 @@
 ###############################################################
 from urllib.parse import quote_plus
 import requests
+from dotenv import load_dotenv
+import os
 
+load_dotenv
 # Inicia sessão
 session = requests.Session()
 
 # Login
 login_url = "https://comex.econeteditora.com.br/log.php"
 payload = {
-    "Log": "GDC61910",
-    "Sen": "dan8278",
+    "Log": os.getenv("LOGIN"),
+    "Sen": os.getenv("PW"),
     "Pag": "/tec/index.php"
 }
 response_login = session.post(login_url, data=payload)
