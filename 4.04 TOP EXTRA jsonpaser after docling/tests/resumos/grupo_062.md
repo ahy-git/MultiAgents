@@ -1,0 +1,3 @@
+O objetivo da seção é fornecer informações sobre a importância do estudo do comportamento humano, intervenções, desenvolvimento pessoal e compreensão da dinâmica social. O tópico principal é a aplicação de questionários para análise de traços de personalidade. A informação relevante é a utilização da versão de 44 itens do questionário para avaliação dos Cinco Grandes traços de personalidade (BFI-44), desenvolvido por Oliver John e Sanjay Srivastava em 1998.
+
+Citação direta representativa: "In our study, we used the 44-item version of the questionnaire for testing the Big Five personality traits (BFI-44), developed by Oliver John and Sanjay Srivastava in 1998."

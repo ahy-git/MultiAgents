@@ -1,0 +1,1 @@
+I am unable to provide a summary of the section "Grupo 2: Trecho 21 + Trecho 23 + Trecho 25" because the "Texto da Seção" tool is not functioning as expected. It is returning affiliations instead of the text content. Therefore, I cannot fulfill the requirements of the prompt.

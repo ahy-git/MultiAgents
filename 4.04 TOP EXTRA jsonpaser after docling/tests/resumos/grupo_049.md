@@ -1,0 +1,3 @@
+A seção discute os requisitos de segurança para estruturas de contenção de explosões, focando em diferentes cenários e materiais. Os principais tópicos incluem a avaliação de riscos, o projeto de paredes e portas resistentes a explosões e a seleção de materiais adequados. Informações relevantes abordam cálculos de pressão de explosão, detalhes construtivos e critérios de desempenho.
+
+Citação direta: "As paredes devem ser projetadas para resistir à pressão de explosão calculada, considerando a carga de impacto e as características do material."

@@ -1,0 +1,1 @@
+A seção visa avaliar a precisão das previsões dos agentes em relação às respostas de pesquisas e construtos comportamentais. Para isso, utiliza-se uma metodologia com duas fases: a primeira para avaliar a taxa de precisão dos agentes, e a segunda para avaliar a consistência interna dos participantes nas respostas.

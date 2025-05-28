@@ -1,0 +1,3 @@
+O objetivo da seção é apresentar dados sobre participantes, incluindo informações demográficas, traços de personalidade e resultados de jogos econômicos. A principal informação é o uso do erro absoluto médio (MAE) para analisar as respostas numéricas.
+
+Citação direta representativa: "Agents w/ Demog. Info. personality traits and economic games report mean absolute error (MAE) due to their numerical response types."

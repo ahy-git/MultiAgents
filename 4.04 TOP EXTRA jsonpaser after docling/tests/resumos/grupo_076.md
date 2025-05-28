@@ -1,0 +1,3 @@
+A seção tem como objetivo avaliar a replicação de estudos, diferenciando se a falha é da replicação original ou dos agentes. Os principais tópicos incluem a replicação da direção e significância do efeito e a correlação entre os tamanhos dos efeitos. As informações relevantes descrevem os métodos estatísticos utilizados em cinco estudos originais para derivar os valores-p de significância. As análises utilizam o cálculo de Cohen's d para comparar os tamanhos dos efeitos, seguindo os métodos originais.
+
+Citação direta: "In this evaluation, we are interested in three related outcomes: whether the effect direction and significance replicate, and whether there is a correlation between effect sizes."

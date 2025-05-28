@@ -1,0 +1,48 @@
+jsonRAG_task:
+  description: >
+   - Verificar se a informacao recebida dentro de {input_ncm} e' uma ncm ou uma descricao e retornar
+   os impostos "II", "IPI", "PIS", "COFINS", "LI" daquele produto.
+   - NCM e' um numero que podera vir no formato "8711.20.10" ou "87112010". 
+   Esses dois valores devem retornar o mesmo resultado:
+        "NCM": "8711.20.10",
+        "Descricaoo": "Motocicletas de cilindrada inferior ou igual a 125u00a0cm3",
+        "II": "18 %",
+        "IPI": "35 %",
+        "PIS": "2,10%",
+        "COFINS": "9,65%",
+        "LI": " "  
+   - Descricao e' um texto que explica o que e' a mercadoria.
+   - Caso {input_ncm} conter uma descricao vc devera identificar qual ncm e descricao, dentro do JSON, mais proxima ao que ele escrever.
+  expected_output: >
+   "Uma lista clara e formatada com as informacoes obtidas a partir da busca dentro do arquivo JSON
+    "NCM": "3802.10.00",
+    "Descricaoo": "- Carvões ativados",
+    "II": "10,8 %",
+    "IPI": "0 %",
+    "PIS": "2,10%",
+    "COFINS": "9,65%",
+    "LI": ""   
+   "Os resultados devem ser organizados por ordem de relevância.
+   NAO USAR CARACTERES de 2 bytes
+
+organize:
+  description: >
+    "O agente deve organizar os dados extraídos do site de acordo com o modelo Pydantic 'Content'. "
+    "Os dados brutos obtidos pelo web scraping podem estar desestruturados ou incompletos, exigindo a análise e categorização correta. "
+    "O agente deve estruturar as informações identificando corretamente o título da página, o resumo do conteúdo, "
+    "os desafios mencionados pelo autor e os tópicos abordados, garantindo que cada tópico contenha definições, conceitos positivos e negativos, "
+    "links relevantes, desafios mencionados e um resumo do tópico."
+  expected_output: >
+    "Os dados devem ser retornados em um dicionário compatível com o modelo Pydantic 'Content', contendo: "
+    "- 'name': O título exato da página. "
+    "- 'summary': Um resumo objetivo do texto principal da página. "
+    "- 'challenges': Os principais desafios mencionados pelo autor do conteúdo. "
+    "- 'Topics': Uma lista de tópicos extraídos da página, onde cada tópico deve conter: "
+    "    - 'topic': Nome do tópico identificado. "
+    "    - 'definitions': Definições claras e diretas do tópico. "
+    "    - 'PositiveConcepts': Fatos positivos mencionados no texto sobre o tópico. "
+    "    - 'NegativeConcepts': Fatos negativos ou críticas identificadas. "
+    "    - 'links': Lista de URLs relevantes encontradas dentro do tópico. "
+    "    - 'challenges': Desafios específicos associados ao tópico. "
+    "    - 'summaryTopic': Um resumo conciso do tópico, explicando seu contexto na página. "
+    "Os dados organizados devem ser estruturados corretamente e validados pelo modelo Pydantic antes de serem retornados."

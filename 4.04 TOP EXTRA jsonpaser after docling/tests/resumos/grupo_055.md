@@ -1,0 +1,3 @@
+O objetivo da seção é descrever o módulo de reflexão de agentes generativos, especificamente uma variação chamada "reflexão de especialista". O módulo visa identificar insights sobre os participantes de entrevistas, empregando quatro especialistas de diferentes áreas das ciências sociais: psicólogo, economista comportamental, cientista político e demógrafo. Cada especialista gera reflexões sintetizando insights relevantes à sua área. Um exemplo dado é a percepção de um psicólogo sobre a valorização da independência por um indivíduo.
+
+Citação direta representativa: "Em vez de simplesmente pedir ao modelo que infira insights da entrevista, pedimos que ele adote a persona de um especialista da área."

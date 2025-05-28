@@ -1,0 +1,5 @@
+Note: R² = 0.001, F(2.0, 868.0) = 0.56, p < 0.001. Reference category: Suburban.
+
+Did your dad work for pay for at least a year while you were growing up?
+
+What was his job? What kind of work did he do? What were his most important activities or duties? 50 What kind of place did he work for? What kind of business was it? What did they make or do where he worked? 50 We all have hopes about what our future will look like. Imagine yourself a few years from now. Maybe you want your life to be the same in some ways as it is now. Maybe you want it to be different in some ways. What do you hope for? 155 What do you value the most in your life? 80 And that was the last question I wanted to ask today. Thank you so much again for your time <participant's name>. It was really wonderful getting to know you through this interview. Now, we will take you back to the Home Screen so that you may finish the rest of the study! 0

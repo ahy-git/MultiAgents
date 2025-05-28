@@ -1,0 +1,4 @@
+Um resumo objetivo da seção.
+A seção descreve os métodos utilizados no estudo, focando na aplicação do questionário BFI-44 e no uso de jogos de economia comportamental. Os tópicos principais abordam a administração e pontuação do BFI-44, a introdução aos jogos de economia comportamental, e a descrição dos jogos Dictator e Trust (First Mover), com uma breve menção ao Trust (Second Mover). A seção ressalta o uso do Qualtrics para o questionário e o uso de incentivos financeiros nos jogos.
+
+Citação direta: "Behavioral economic games are a set of experimental tools to study decision-making and social behavior under real stakes."

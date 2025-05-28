@@ -1,0 +1,5 @@
+insights that outperform other conceivable data types, and if they are shown to be more powerful, elucidate the underlying reasons for their effectiveness. Main analysis. In this study, we evaluate two alternative agent descriptors: participants'
+
+demographic information and persona descriptions. To operationalize demographic information, we reconstruct agent descriptions following a method representative of approaches used in recent
+
+literature that employ language models to simulate human behavior. This method, similar to that presented by Argyle et al., constructs a first-person descriptor including political ideology, race, gender, and age ( 28 ). For example: Ideologically, I describe myself as conservative. Politically, I am a strong Republican. Racially, I am white. I am male. In terms of age, I am 50 years old. We reconstruct these descriptors for our participants using their responses to the GSS. Then, to prompt the language model with this data, we replace the interview content with the demographic descriptors. To operationalize persona descriptions, we asked participants to write a short paragraph

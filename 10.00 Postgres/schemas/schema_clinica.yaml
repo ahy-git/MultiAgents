@@ -1,0 +1,247 @@
+tables:
+  public:
+    agendamentos:
+    - column_name: agendamento_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: paciente_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: profissional_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: data_consulta
+      data_type: timestamp without time zone
+      is_nullable: 'NO'
+    - column_name: status
+      data_type: character varying
+      is_nullable: 'YES'
+      possible_values:
+      - id: 1
+        status: Realizado
+      - id: 2
+        status: Cancelado
+      - id: 3
+        status: Confirmado
+      - id: 4
+        status: Marcado
+      - id: 5
+        status: Realizado
+      - id: 6
+        status: Confirmado
+      - id: 7
+        status: Marcado
+      - id: 8
+        status: Realizado
+      - id: 9
+        status: Cancelado
+      - id: 10
+        status: Realizado
+    - column_name: convenio_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: descricao
+      data_type: text
+      is_nullable: 'YES'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    convenios:
+    - column_name: convenio_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: nome
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: telefone
+      data_type: character varying
+      is_nullable: 'YES'
+    - column_name: email
+      data_type: character varying
+      is_nullable: 'YES'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    medicamentos:
+    - column_name: medicamento_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: nome
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: descricao
+      data_type: text
+      is_nullable: 'YES'
+    - column_name: estoque
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    pacientes:
+    - column_name: paciente_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: nome
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: cpf
+      data_type: character
+      is_nullable: 'NO'
+    - column_name: data_nascimento
+      data_type: date
+      is_nullable: 'NO'
+    - column_name: sexo
+      data_type: character
+      is_nullable: 'YES'
+      possible_values:
+      - id: 1
+        sexo: M
+      - id: 2
+        sexo: F
+      - id: 3
+        sexo: M
+      - id: 4
+        sexo: F
+      - id: 5
+        sexo: M
+      - id: 6
+        sexo: F
+      - id: 7
+        sexo: M
+      - id: 8
+        sexo: F
+      - id: 9
+        sexo: M
+      - id: 10
+        sexo: F
+      - id: 11
+        sexo: M
+      - id: 12
+        sexo: F
+      - id: 13
+        sexo: M
+      - id: 14
+        sexo: F
+      - id: 15
+        sexo: M
+    - column_name: telefone
+      data_type: character varying
+      is_nullable: 'YES'
+    - column_name: email
+      data_type: character varying
+      is_nullable: 'YES'
+    - column_name: endereco
+      data_type: text
+      is_nullable: 'YES'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    pagamentos:
+    - column_name: pagamento_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: agendamento_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: valor
+      data_type: numeric
+      is_nullable: 'NO'
+    - column_name: data_pagamento
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    - column_name: status_id
+      data_type: integer
+      is_nullable: 'NO'
+      possible_values:
+      - id: 1
+        status_id: '2'
+      - id: 2
+        status_id: '1'
+      - id: 3
+        status_id: '2'
+      - id: 4
+        status_id: '2'
+      - id: 5
+        status_id: '2'
+      - id: 6
+        status_id: '2'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    prescricoes:
+    - column_name: prescricao_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: prontuario_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: medicamento_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: quantidade
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: instrucoes
+      data_type: text
+      is_nullable: 'YES'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    profissionais:
+    - column_name: profissional_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: nome
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: especialidade
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: telefone
+      data_type: character varying
+      is_nullable: 'YES'
+    - column_name: email
+      data_type: character varying
+      is_nullable: 'YES'
+    - column_name: registro_profissional
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: data_admissao
+      data_type: date
+      is_nullable: 'NO'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    prontuarios:
+    - column_name: prontuario_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: paciente_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: profissional_id
+      data_type: integer
+      is_nullable: 'YES'
+    - column_name: data_atendimento
+      data_type: timestamp without time zone
+      is_nullable: 'NO'
+    - column_name: descricao
+      data_type: text
+      is_nullable: 'NO'
+    - column_name: prescricoes
+      data_type: text
+      is_nullable: 'YES'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'YES'
+    status:
+    - column_name: status_id
+      data_type: integer
+      is_nullable: 'NO'
+    - column_name: nome
+      data_type: character varying
+      is_nullable: 'NO'
+    - column_name: criado_em
+      data_type: timestamp without time zone
+      is_nullable: 'NO'

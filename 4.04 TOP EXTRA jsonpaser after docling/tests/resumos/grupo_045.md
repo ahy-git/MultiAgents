@@ -1,0 +1,3 @@
+The objective of this section is to describe the technical aspects of the AI-driven interview platform. The main topics include the interview setup, interface, and the technologies used for audio processing and response generation. The platform begins with a disclosure that the interviewer is an AI and includes an audio calibration step. The interview interface features avatars and progress indicators. The system uses OpenAI's Audio model for text-to-speech and Whisper model for speech-to-text. The GPT-4o language model generates dynamic reflections based on the conversation transcript.
+
+"The interview script is communicated to the AI interviewer agent as a JSON file containing an ordered list of questions."

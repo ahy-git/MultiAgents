@@ -1,0 +1,5 @@
+Persona 0.0333 0.4704 -0.0334 0.1001 Persona -0.0252 0.6508 -0.0919 0.0416
+
+game4_PG 0.52 --0.05 -0.71 game5_PD 0.36 -0.1 0.32 Table 3. The construct-level analysis of predictive accuracy across the General Social Survey, Big Five personality traits, and econimic games. For each construct, we provide accuracy and correlation metrics, along with replication ratios. The analysis highlights the performance of generative agents in predicting specific dimensions within these constructs, with metrics showing varied levels of predictive accuracy across different social, personality, and game-based items. This evaluation complements the individual-level analysis, which is of our primary interest in this work, by offering a detailed look at the accuracy of agents for specific constructs and items.
+
+const 0.6703 0.0031 218.263 affiliation_conservative -0.0081 0.0051 -1.605

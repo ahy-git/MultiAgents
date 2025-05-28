@@ -1,0 +1,124 @@
+1. O uso de WhatsApp é definitivo ou há abertura para testar plataformas como Slack ou Telegram?
+    - Vamos por uma solucao gratuita, o whatsapp realmente e' perigoso pq nao temos acesso a api oficial. Telegram ou slack se possivel, algum app que funcione no celular
+2. Qual é o volume esperado de links enviados por semana?
+    - 10 links, cada link 1 post ou story ou reels 
+3. Existe um plano caso o WhatsApp limite o uso da API ou mude seus termos?
+    - Se isso ocorrer, podemos mudar a pltaforma.
+4. Quais palavras-chave ou categorias devem ser usadas como filtros iniciais?
+    - A PESQUISAR
+5. Quantos moderadores estarão disponíveis para validar os links?
+    Quem envia o link devera garantir que os links sao validos. Ponto de atencao: Ao acessar o link para fazer o webscraping eh possivel que queo sistema de automacao nao consigo obter acessar por captcha ou outro esquema de autenticacao.
+6. Existe interesse em usar aprendizado de máquina para aprimorar a automação da validação?
+    Sim, aprendizado de maquinas e qualquer outra tecnica que melhore a performance
+7. Que ferramentas de monitoramento e alertas devem ser usadas para integrar com o n8n?
+    Sugerir.
+8. Qual é o tempo de tolerância aceitável para resolver falhas na integração?
+    5 dias. Precisamos de gerar pelo menos 1 conteudo por dia.
+9. Há interesse em implementar redundância para garantir que a automação continue mesmo em caso de falha de API?
+    Sim.
+10. Qual o tamanho ideal dos resumos (ex.: 50, 100 ou 200 palavras)?
+    Do mesmo tamanho dos posts da national geographic.
+11. Devemos priorizar tom técnico, informal ou misto nos resumos?
+    Misto, com linguajar para pessoas nao tecnicas e com analogias de conhecimento geral.
+12. Há necessidade de ajustar os resumos para diferentes plataformas além do Instagram?
+    Nao neste projeto.
+13. Quem será responsável por criar os critérios de curadoria?
+    Agentes usando LLMs
+14. Qual a frequência mínima necessária para as reuniões de alinhamento entre os curadores?
+    Por ser LLM, 1 vez por semana.
+15. Existe algum tema ou tópico que deve ser priorizado na curadoria (ex.: IA generativa, tendências tecnológicas)?
+     - PESQUISAR HYPE DO MOMENTO NA TECNOLOGIA
+     - alem disso coisas bem tecnicas que encontro na internet.
+16. Que tipo de comentários (positivos, negativos, sugestões) são mais importantes para análise?
+     Todos os tipos de comentarios. E todos devem ser comentados de volta atraves de uma LLM. Identificar os haters e montar uma base de dados desses comentarios.
+17. Qual ferramenta (Google NLP, IBM Watson, outra) seria mais adequada para análise de sentimento?
+    Sugerir uma que seja barata ou de preferencia gratuita.
+18. Devemos incluir dados qualitativos nos relatórios de engajamento apresentados à equipe?
+    Sim, incluir dados qualitativos
+19. Quem será responsável por ajustes e aprovações de última hora?
+    EU
+20. Qual é o prazo limite para ajustes antes da publicação (ex.: 1 hora, 6 horas)?
+    8 horas
+21. Deve haver notificações automáticas para lembrar o time sobre a necessidade de revisar os posts antes da publicação?
+    SIM
+22. Qual é o orçamento total disponível para desenvolver as automações e integrações?
+    TUDO Local no primeiro momento. orcamento restrito por ser um MVP
+23. Qual é o prazo esperado para a implementação completa do fluxo?
+    3 semanas.
+24. Quem são os stakeholders que tomarão as decisões finais em caso de mudanças de escopo?
+    EU
+25. Devemos considerar a internacionalização dos resumos e posts futuramente (ex.: tradução para outros idiomas)?
+    SIM, em um futuro. 
+26. Existe algum SLA esperado para cada parte do fluxo, como validação manual ou geração de resumos?
+    Nao, sugira o SLA
+27. Como será feita a autenticação e o gerenciamento de acesso à API do WhatsApp?
+    Sera feita manualmente com o EvolutionAPI. Isso ja esta funcional.
+28. Se decidirmos usar uma alternativa ao WhatsApp, há implicações legais ou de segurança que precisamos considerar?
+    Nao. sem problemas juridicos ou de seguranca
+29. Existe alguma restrição técnica ou política para usar múltiplas plataformas simultaneamente para coleta de links?
+    Pode ser que a logica de scraping nao funcione para todos os sites. Devemos testar bem e implementar um plano de contigencia.
+    Eh bem provavel que precisemos implementar um agente que simule as interacoes no windows para abrir o link em um navegador e ler o site. Usar selenium ou beatysoup pode nao funcionar. Isso deve ser um ponto de atencao.
+30. Em caso de crescimento exponencial no número de links, qual seria a solução de curto prazo para evitar gargalos no processo de validação?
+    Implementar um sistema de fila usando ou rabbitMQ ou Kafka. Sempre garantindo que o link eh processado.
+31. Precisamos de moderação por múltiplas equipes em diferentes fusos horários? Se sim, como será o fluxo de comunicação entre elas?
+    Nao, sem moderacao por enquanto.
+32. Como os alertas de falha serão comunicados à equipe (ex.: e-mail, Slack, ou outra ferramenta)?
+    Whatsapp e email
+33. Qual é o volume máximo de requisições simultâneas que as APIs (WhatsApp, Instagram) suportam sem sobrecarregar o sistema?
+    Nao sei, em teoria eh um post por dia. 
+34. Existe alguma política de uso ou limitação de rate limit para as APIs utilizadas?
+    Nao
+35. Se o modelo LLM escolhido apresentar inconsistências frequentes, há um plano para treinar modelos internos ou realizar ajustes contínuos no prompt?
+    Sim, a ideia eh usar modelos internos com o ollama, modelos deep seek e llama.
+36. Como os stakeholders avaliarão a eficácia dos resumos antes da publicação final?
+    Atraves do resultado final no instagram. A avaliacao sera usada para realizar o fine-tuning to modelo.
+37. Qual será o critério de decisão para priorizar custos baixos (modelos open-source) versus qualidade (modelos pagos)?
+    no inicio usaremos sempre os modelos locais open-source.
+38. Qual será o papel da equipe de curadoria quando surgirem temas controversos? Eles terão diretrizes específicas para lidar com esses casos?
+    Postaremos os dois temas e veremos a reacao da comunidade.
+39. Precisamos configurar auditorias periódicas para verificar a qualidade do conteúdo curado? Se sim, quem será responsável?
+    EU, verificarei a cada post gerado.
+40. Quais métricas são mais importantes para medir o sucesso do projeto (alcance, engajamento, conversões, etc.)?
+    Engajamento, alcance
+41. Como os dados qualitativos, como análises de sentimento de comentários, serão apresentados no dashboard (ex.: gráficos, relatórios textuais)?
+    graficos distitruicao haters vs lovers. etc
+42. Há interesse em correlacionar dados de engajamento com o desempenho financeiro do projeto (ex.: vendas, leads gerados)?
+    Por enquanto nao
+43. O fluxo de agendamento deve incluir aprovações automáticas para garantir postagens mesmo em caso de indisponibilidade da equipe?
+    Toda postagem devera ser feito, por default tudo eh aprovado. apenas se o stakeholder der o comando de proibicao/revisao a postagem nao acontecera. Nesse caso o stakeholder fara a revisao e os textos devem ser salvados para futuro fine tuning do modelo.
+44. Precisamos de uma camada adicional de controle de qualidade antes da publicação para verificar inconsistências visuais ou textuais?
+    Nao por enquanto
+45. Existe um plano para treinamento da equipe em novas ferramentas e fluxos de trabalho?
+    Nao, elaborar o plano e escrever o passo a passo de como uma LLM pode fazer o onboarding sozinho.
+46. Como o sucesso do projeto será avaliado pelos stakeholders em curto, médio e longo prazo?
+    curto: 100 seguidores
+    medio 500 seguidores
+    longo prazo: 10k seguidores
+47. Em caso de falha grave em qualquer parte do fluxo, quem será responsável pela tomada de decisão emergencial?
+    EU
+48. Devemos considerar a integração de um sistema de backup para armazenar resumos, templates e dados críticos do projeto?
+    SIM, base de dados com site, texto integral, resumo, templates, post,
+
+
+INFO ADICIONAL
+a. Sobre a identidade visual. Tete eh uma porquinha rosa gorda, muito feliz e simpatica. A ideia de usar um animalzinho mascote vem de que no mundo tech hoje temos muito dessas referencias, como pandas, firefox, deepseek whale, ollama, docker whale, pod. Imagino que o mundo geek, nerd, gosta bastante desse approach. 
+b. fontes de dados
+    - https://arxiv.org/list/cs.AI/recent
+    - hackernews
+    - dev.to
+    - youtube videos
+    - blog huggingface
+    - blog ollama
+c.First Post: 
+O mundo passa por uma revolucao, vc ja sabe, as relacoes humanas e entre maquinas estao mudando e e' importante que todos saibam a verdade para se adaptarem, sem medo. Acredito que o Brasil tem grandes chances de assumir um papel gigantesco nessa revolucao ja que temos nomes e empresas que estao sobressaindo (ex. langflow, crewai, semantic, alana, entre outras.). Infelizmente nao competiremos na infra, mas podemos assumir um papel de destaque en solucoes. Assim como no futebol, musica e arte, devemos utilizar de toda a brasilidade criativa para thrive!?!. objetivo e' trazer informacao tec em uma linguagem simples, quase infantil para o publico brasileiro, de todas as faixas etarias incluindo criancas e idosos. Antes de pagar por um curso prometende milagres, tente aprender o basico de forma gratuita. Tudo fluira melhor. Existem varios criadores que explicam melhor que nos cursos.
+Comente, curta, critique. Isso ajudara a melhorar o perfil e os modelos usados.
+
+Fluxo:
+ 1 - humano encontra um artigo interessante e envia o link para via applicativo
+ 2 - o sistema coloca o link em fila e comeca a iteracao ate acabar
+ 3- SCRAPE: de forma assincrona um sisetma multi agente crew ai, acessa a fila em ordem cronologica, acessa o site ou baixa o pdf, faz o scraping e gera um arquivo texto em uma pasta
+ 4- SUMMARY: de forma assincrona um outro sistema multi agentes crew ai, busca o arquivo mais antigo que nao tenha sido traballhado e faz um resumo do scrape para fazer o post, reels e story
+ 5- GenAI: com o resumo, outro sistema multiagente crewAI gera as artes e organiza em pastas o que for Postaremos
+ 6- Aprovacao: Outro sistema multi agentes valida que que esta feito, revisa para que nao esteja dentro das politicas do instagram e envia o artigo revisao para aprovacao do humano, via telegram ou whatsapp ou slack
+  7.1- Se aprovado, um agente crewAI faz o post
+  7.2- se nao for aprovado, pedir feedback. o um agente crewAI tranfere o conteudo vai para um bucket de revisao manual que sera usada para treinar o modelo.Neste bucket devem estar todo o conteudo na integra. URL do Site, Scrape,summary, artes e feedback. 

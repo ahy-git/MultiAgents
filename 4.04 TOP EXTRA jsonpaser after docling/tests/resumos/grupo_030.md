@@ -1,0 +1,3 @@
+Esta seção descreve o procedimento de coleta de dados dos participantes, que foram utilizados para avaliar a fidelidade dos agentes resultantes. Os principais tópicos incluem recrutamento e fluxo dos participantes, distribuição demográfica e consentimento informado.
+
+Citação direta representativa: "Esta seção detalha o procedimento de coleta de dados dos participantes, incluindo recrutamento e fluxo, distribuição demográfica e consentimento informado."

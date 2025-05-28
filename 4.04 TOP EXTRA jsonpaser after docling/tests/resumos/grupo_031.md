@@ -1,0 +1,1 @@
+The section describes the study platform and interface, along with the avatar creation process. Participants are directed to a custom-built platform and create 2-D sprite avatars. A relevant piece of information is that participants create an avatar to represent them. "Participants consent and create a 2-D sprite avatar to represent them in".

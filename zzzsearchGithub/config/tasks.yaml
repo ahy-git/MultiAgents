@@ -1,0 +1,41 @@
+scrape:
+  description: >
+   "Receber o tema {topic} pelo usuário e buscar no GitHub os repositórios públicos mais relevantes. "
+   "Traduza o topico para outros idiomas os idiomas en, fr, pt-br, pt, ru, it, es, jp. Procure repositorios nesses outros idiomas."
+   "Filtrar os resultados com base em critérios como número de estrelas, data da última atualização, qualidade da documentação (README), e popularidade. "
+   "Selecionar os 30 melhores repositórios que melhor representam o tema e que sejam úteis para desenvolvedores. "
+   "O tema pode envolver linguagens de programação, frameworks, ferramentas, conceitos técnicos ou domínios específicos (como 'LLMs', 'data visualization', 'web scraping')."
+   NUNCA INVENTE RESPOSITORIOS.
+   NUNCA LISTE REPOSITORIOS PRIVADOS.
+   NUNCA lISTE REPOSITORIOS QUE NAO MENCIONEM DIRETAMENTE O TOPICO DE ALGUMA FORMA
+   OS REPOSITORIOS DEVEM ESTAR LIGADOS DIRETAMENTE AO TOPICO
+  expected_output: >
+   "Uma lista clara e formatada dos principais repositórios PUBLICOS, somente PUBLICOS, do GitHub relacionados ao tema, contendo para cada item:\n"
+   "- Nome do repositório\n"
+   "- Link direto para o GitHub\n"
+   "- Número de estrelas\n"
+   "- Data da última atualização\n"
+   "- Pequena descrição do projeto (resumo do README)\n\n"
+   "Os resultados devem ser organizados por ordem de relevância e atualidade.
+
+organize:
+  description: >
+    "O agente deve organizar os dados extraídos do site de acordo com o modelo Pydantic 'Content'. "
+    "Os dados brutos obtidos pelo web scraping podem estar desestruturados ou incompletos, exigindo a análise e categorização correta. "
+    "O agente deve estruturar as informações identificando corretamente o título da página, o resumo do conteúdo, "
+    "os desafios mencionados pelo autor e os tópicos abordados, garantindo que cada tópico contenha definições, conceitos positivos e negativos, "
+    "links relevantes, desafios mencionados e um resumo do tópico."
+  expected_output: >
+    "Os dados devem ser retornados em um dicionário compatível com o modelo Pydantic 'Content', contendo: "
+    "- 'name': O título exato da página. "
+    "- 'summary': Um resumo objetivo do texto principal da página. "
+    "- 'challenges': Os principais desafios mencionados pelo autor do conteúdo. "
+    "- 'Topics': Uma lista de tópicos extraídos da página, onde cada tópico deve conter: "
+    "    - 'topic': Nome do tópico identificado. "
+    "    - 'definitions': Definições claras e diretas do tópico. "
+    "    - 'PositiveConcepts': Fatos positivos mencionados no texto sobre o tópico. "
+    "    - 'NegativeConcepts': Fatos negativos ou críticas identificadas. "
+    "    - 'links': Lista de URLs relevantes encontradas dentro do tópico. "
+    "    - 'challenges': Desafios específicos associados ao tópico. "
+    "    - 'summaryTopic': Um resumo conciso do tópico, explicando seu contexto na página. "
+    "Os dados organizados devem ser estruturados corretamente e validados pelo modelo Pydantic antes de serem retornados."

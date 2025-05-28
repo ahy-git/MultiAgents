@@ -1,0 +1,3 @@
+A seção descreve a plataforma de estudo, focando em sua interface principal e componentes. O objetivo é apresentar a estrutura modular do estudo. Os principais tópicos são: a interface principal e os módulos que a compõem, incluindo consentimento, questionários e experimentos. Informações relevantes indicam que os módulos se tornam disponíveis sequencialmente.
+
+Citação direta: "The modules only become available in order; the button to start a module becomes clickable once the participants"

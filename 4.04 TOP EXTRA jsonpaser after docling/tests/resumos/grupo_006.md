@@ -1,0 +1,5 @@
+A seção tem como objetivo avaliar a precisão dos agentes generativos na previsão de atitudes, traços e comportamentos individuais, bem como sua capacidade de prever efeitos de tratamento e tamanhos de efeito em nível populacional. Os principais tópicos abordados incluem a metodologia para medir a precisão, utilizando a consistência individual como fator de normalização. A seção também explora a comparação do desempenho dos agentes com diferentes abordagens, como o uso de atributos demográficos e perfis de persona.
+
+Informações relevantes incluem a utilização de dados de estudos de replicação, a aplicação de métricas como precisão normalizada e correlação, e a avaliação da influência de entrevistas na melhoria da precisão preditiva dos agentes.
+
+Citação direta representativa: "A key methodological benefit of simulating specific individuals is the ability to evaluate our architecture by comparing how accurately each agent replicates the attitudes and behaviors of its source individual."

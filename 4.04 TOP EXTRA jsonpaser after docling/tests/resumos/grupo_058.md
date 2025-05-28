@@ -1,0 +1,3 @@
+O objetivo da seção é descrever o processo de predição das respostas de um participante de entrevista em um questionário. Os tópicos principais incluem a interpretação das opções de resposta, a análise das possíveis escolhas do participante e o raciocínio para prever a resposta. As informações relevantes envolvem a análise do texto da entrevista para inferir as respostas do participante.
+
+Citação direta: "Step 1) Describe in a few sentences the kind of person that would choose each of the response options. ("Option Interpretation")"

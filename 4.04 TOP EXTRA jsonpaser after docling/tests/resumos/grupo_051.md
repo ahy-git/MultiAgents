@@ -1,0 +1,5 @@
+O objetivo da seção é demonstrar a equivalência no desempenho de agentes generativos (modelos de IA) criados a partir de transcrições de entrevistas conduzidas por IA e por humanos, especificamente na predição de respostas do GSS (General Social Survey). Os tópicos principais incluem a comparação do desempenho dos agentes, a capacidade da IA de conduzir conversas suaves e fazer perguntas de acompanhamento relevantes e uma ilustração por meio de um trecho de entrevista.
+
+Informações relevantes: Os agentes de IA demonstraram capacidade de manter conversas fluentes, responder de forma sensível a informações difíceis e fazer perguntas de acompanhamento.
+
+Citação direta: "For instance, our deployed AI interviewer agent could maintain a smooth conversation, ask relevant follow-up questions when participants' responses were terse, and navigate sympathetically after hearing about a difficult experience."

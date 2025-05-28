@@ -1,0 +1,1 @@
+The objective of the section is to describe the General Social Survey (GSS). The core module of the GSS includes 183 questions. The majority of these questions are categorical or ordinal (177), while 6 are numerical. The section reports the accuracy rate and correlation coefficient for the categorical questions.

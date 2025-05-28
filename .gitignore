@@ -7,3 +7,5 @@ Notes.md
 questions.md
 debug.ipynb
 .prettierrc
+db/
+.gitignore

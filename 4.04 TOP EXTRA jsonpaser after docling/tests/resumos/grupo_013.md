@@ -1,0 +1,1 @@
+Objetivo: Avaliar a correlação entre agentes e participantes. Tópicos Principais: Coeficientes de correlação e diferenças de paridade demográfica. Informações Relevantes: Os agentes apresentaram alta correlação com os participantes (r = 0.98).  Citação Direta: "agents were highly correlated with those of the participants (r = 0.98)".

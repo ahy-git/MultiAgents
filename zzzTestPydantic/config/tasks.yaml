@@ -1,0 +1,41 @@
+scrape:
+  description: >
+    "O agente deve realizar web scraping na URL fornecida ({url}) para extrair informações relevantes do site. "
+    "O objetivo é analisar o conteúdo HTML e identificar elementos como título da página, resumo do texto principal, "
+    "principais desafios mencionados e tópicos abordados. Cada tópico deve conter definições, conceitos positivos e negativos, "
+    "links relevantes, desafios mencionados e um resumo do tópico."
+  expected_output: >
+    "O agente deve retornar um dicionário contendo as seguintes informações extraídas do site: "
+    "- 'name': Título da página extraída do HTML. "
+    "- 'summary': Resumo do conteúdo encontrado na página. "
+    "- 'challenges': Principais desafios mencionados no texto. "
+    "- 'Topics': Uma lista de tópicos abordados na página, onde cada tópico inclui: "
+    "    - 'topic': Nome do tópico identificado. "
+    "    - 'definitions': Definições encontradas sobre o tópico. "
+    "    - 'PositiveConcepts': Fatos positivos extraídos do texto sobre o tópico. "
+    "    - 'NegativeConcepts': Fatos negativos identificados no conteúdo. "
+    "    - 'links': Lista de URLs encontradas relacionadas ao tópico. "
+    "    - 'challenges': Desafios específicos mencionados dentro do tópico. "
+    "    - 'summaryTopic': Um resumo do tópico extraído do texto. "
+
+organize:
+  description: >
+    "O agente deve organizar os dados extraídos do site de acordo com o modelo Pydantic 'Content'. "
+    "Os dados brutos obtidos pelo web scraping podem estar desestruturados ou incompletos, exigindo a análise e categorização correta. "
+    "O agente deve estruturar as informações identificando corretamente o título da página, o resumo do conteúdo, "
+    "os desafios mencionados pelo autor e os tópicos abordados, garantindo que cada tópico contenha definições, conceitos positivos e negativos, "
+    "links relevantes, desafios mencionados e um resumo do tópico."
+  expected_output: >
+    "Os dados devem ser retornados em um dicionário compatível com o modelo Pydantic 'Content', contendo: "
+    "- 'name': O título exato da página. "
+    "- 'summary': Um resumo objetivo do texto principal da página. "
+    "- 'challenges': Os principais desafios mencionados pelo autor do conteúdo. "
+    "- 'Topics': Uma lista de tópicos extraídos da página, onde cada tópico deve conter: "
+    "    - 'topic': Nome do tópico identificado. "
+    "    - 'definitions': Definições claras e diretas do tópico. "
+    "    - 'PositiveConcepts': Fatos positivos mencionados no texto sobre o tópico. "
+    "    - 'NegativeConcepts': Fatos negativos ou críticas identificadas. "
+    "    - 'links': Lista de URLs relevantes encontradas dentro do tópico. "
+    "    - 'challenges': Desafios específicos associados ao tópico. "
+    "    - 'summaryTopic': Um resumo conciso do tópico, explicando seu contexto na página. "
+    "Os dados organizados devem ser estruturados corretamente e validados pelo modelo Pydantic antes de serem retornados."

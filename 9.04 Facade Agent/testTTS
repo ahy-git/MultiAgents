@@ -1,0 +1,7 @@
+from generate import TextToSpeech
+
+texto = "Olá, isso é um teste de conversão de texto para fala usando Eleven Labs."
+arquivo_saida = "teste.mp3"
+
+tts = TextToSpeech()
+tts.synthesize_speech(texto, arquivo_saida)

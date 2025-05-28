@@ -1,0 +1,11 @@
+# services:
+#   app:
+#     build: .
+#     volumes:
+#       - .:/app
+#       - ../agent_social_media:/agent_social_media
+#     working_dir: /app
+#     command: ["python", "app.py"]
+#     ports:
+#       - "1112:1112"
+#     restart: unless-stopped

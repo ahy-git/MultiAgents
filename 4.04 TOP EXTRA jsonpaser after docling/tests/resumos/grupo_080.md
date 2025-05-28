@@ -1,0 +1,3 @@
+A seção descreve a utilização de agentes para prever as respostas dos participantes em pesquisas e experimentos. O objetivo é analisar a eficácia de entrevistas na geração desses agentes preditivos. Os tópicos principais incluem a coleta de informações sobre os participantes, a criação de agentes demográficos e de persona, e a comparação do desempenho entre eles. A análise de robustez exploratória foca em entender por que as entrevistas são eficazes, comparando agentes gerados por entrevistas com agentes informados por diferentes fontes de dados.
+
+Citação representativa: "O objetivo principal desta análise exploratória é entender, de forma mais exaustiva, o motivo pelo qual as entrevistas são eficazes."

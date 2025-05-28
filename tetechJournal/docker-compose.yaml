@@ -1,0 +1,29 @@
+services:
+  telegram_agent:
+    build:
+      context: ./telegram_agent
+    container_name: telegram_bot
+    volumes:
+      - ./telegram_agent:/app
+      - ./agent_social_media:/agent_social_media 
+    working_dir: /app
+    ports:
+      - "1112:1112"
+    env_file:
+      - ./telegram_agent/.env
+    depends_on:
+      - agent_social_media
+    restart: unless-stopped
+    command: ["python", "appAPI.py"]
+
+  agent_social_media:
+    build:
+      context: ./agent_social_media
+    container_name: autopost_service
+    volumes:
+      - ./agent_social_media:/app  # 👈 aqui mapeia seu código real
+      - ./agent_social_media:/agent_social_media
+    working_dir: /app
+    ports:
+      - "1113:1113"
+    restart: unless-stopped

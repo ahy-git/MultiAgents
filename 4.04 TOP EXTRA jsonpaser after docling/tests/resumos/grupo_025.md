@@ -1,0 +1,5 @@
+American Political Science Review 102, 215-232 (2008). 37. M. J. Salganik et al., Measuring the predictability of life outcomes with a scientific mass collaboration. Proc. Natl. Acad. Sci. U.S.A. 117, 8398-8403 (2020). 38. L. P. Argyle et al., Out of one, many: Using language models to simulate human samples. Political Analysis 31, 337-355 (2023). 39. M. Hardt, E. Price, N. Srebro, Equality of opportunity in supervised learning, in
+
+Advances in Neural Information Processing Systems 29 (2016), pp. 3315-3323; arXiv:1610.02413. 40. S. Barocas, M. Hardt, A. Narayanan, Fairness and Machine Learning (2019); https://fairmlbook.org 41. M. N. Stagnaro, J. Druckman, A. J. Berinsky, A. A. Arechar, R. Willer, D. Rand, Representativeness versus Response Quality: Assessing Nine Opt-In Online Survey
+
+Samples. OSF Preprints [Preprint] (2024); https://osf.io/preprints/psyarxiv/h9j2dc 42. T. W. Smith, M. Davern, J. Freese, S.L. Morgan, "General Social Surveys, 1972-2020: Cumulative Codebook" (NORC at the University of Chicago, 2021); 11

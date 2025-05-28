@@ -1,0 +1,1 @@
+The architecture of our generative agents involves taking a question as input and outputting a prediction of how the source participant might respond, using a language model. Each agent's memory comprises the interview transcript and the outputs of expert reflections over that transcript. These reflections are short syntheses generated.
