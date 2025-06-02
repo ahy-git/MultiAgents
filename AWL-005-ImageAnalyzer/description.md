@@ -1,0 +1,1 @@
+AI-powered vision assistant that analyzes medical images (X-rays, MRIs, etc.) using a LLM with vision capabilities and DuckDuckGo search (research analysis techniques). It provides a structured diagnostic report including findings, diagnosis, patient-friendly explanation, and links to relevant research. Ideal for educational (LLMs) purposes. DO NOT USE THIS FOR REAL USE CASES.

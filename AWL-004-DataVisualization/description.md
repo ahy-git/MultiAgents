@@ -1,1 +1,1 @@
-AI-powered data analysis and visualization using sandboxed Python execution. Transforms business questions into insights with automated charts, secure E2B environment, and CrewAI-driven reporting. Ideal for CTOs seeking scalable, intelligent analytics.
+AI-powered data analysis and visualization using sandboxed Python execution. Transforms business questions into insights with automated charts, secure E2B environment (runtime for executing AI-generated code in secure sandboxes), and CrewAI-driven reporting. 
