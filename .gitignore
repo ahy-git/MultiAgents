@@ -11,3 +11,5 @@ db/
 .gitignore
 *.mp3
 *.wav
+clientSecret.json
+token.json

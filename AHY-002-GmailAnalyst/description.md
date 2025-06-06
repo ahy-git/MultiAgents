@@ -1,0 +1,1 @@
+Automatically scans unread emails in your Gmail inbox and identifies those that require immediate attention, returning a structured summary for prioritization.
